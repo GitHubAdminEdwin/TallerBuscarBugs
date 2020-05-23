@@ -6,10 +6,12 @@ import org.springframework.stereotype.Component;
 public class Converter {
 
    public double convertFarenheitCelsius (double farenheit) {
-       return (farenheit - 32 * 5/9);
+	   double resultado = (farenheit - 32 * 5/9);
+       return resultado;
    }
 
    public double convertCelsiusFarenheit(double celsius) {
-       return (celsius * 9/5 + 32);
+	   double resultado1 = (celsius * 9/5 + 32);
+       return resultado1;
    }
 }
